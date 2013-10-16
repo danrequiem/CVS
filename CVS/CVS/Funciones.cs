@@ -79,7 +79,7 @@ namespace CSV
 		}
 		public void imprimirRegistros()
 		{
-			Console.WriteLine("Numero de registros"+Personas.Count);
+			Console.WriteLine("Numero de registros: "+Personas.Count);
 			foreach (object Registro in Personas)
 	        {
 				this.persona = (Registro) Registro;
